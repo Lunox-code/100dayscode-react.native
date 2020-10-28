@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import { Header, Input, CheckBox } from 'react-native-elements';
+import { StyleSheet, Text, View, ActivityIndicator } from 'react-native';
+import { Header, Input, CheckBox, Image, ListItem, Avatar, Badge } from 'react-native-elements';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 
@@ -23,7 +23,14 @@ export default function App() {
     // Third topic CheckBox
       center
       title='Check Box: Click Here'/>
-      
+
+<ListItem>
+  <Badge
+    value={10}
+    textStyle={{ color: 'orange' }}
+    containerStyle={{ marginTop: -20 }}
+  />
+</ListItem>
     </View>
   );
 }
