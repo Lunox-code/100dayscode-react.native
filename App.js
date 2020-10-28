@@ -15,7 +15,7 @@ export default function App() {
     <Header
       // Topic 1: HEADER
       leftComponent={{ icon: 'menu', color: '#fff' }}
-      centerComponent={{ text: '100 Days Code - React Native Hear', style: { color: '#fff' } }}/>
+      centerComponent={{ text: '100 Days Code - React Native', style: { color: '#fff' } }}/>
     
     <Text 
       // Topic 2: Text Style
